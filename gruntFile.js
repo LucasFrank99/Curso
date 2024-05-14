@@ -28,6 +28,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     
-    grunt.registertask('default', ['less','uglify']);
+    grunt.registerTask('default', ['less','uglify']);
 };
 
